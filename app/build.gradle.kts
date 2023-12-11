@@ -7,6 +7,10 @@ android {
     namespace = "com.example.t1ptime"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.t1ptime"
         minSdk = 19
